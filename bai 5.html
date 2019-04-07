@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let kt, gk, ck;
+        kt = parseInt(prompt('Nhap diem bai kiem tra:'));
+        gk = parseInt(prompt('Nhap diem bai giua ky:'));
+        ck = parseInt(prompt('Nhap diem bai cuoi ky:'));
+        let dtb = parseFloat((kt + gk + ck)/3);
+        if (dtb < 5){
+            alert('Yeu');
+        } else if (5<dtb && dtb<8){
+            alert('Kha');
+        } else if (8<dtb && dtb < 10){
+            alert('Gioi');
+        }
+    </script>
+</body>
+</html>

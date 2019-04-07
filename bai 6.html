@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let x = parseInt(prompt('Nhap so luong hang ban duoc'));
+        let hoaHong=0;
+        if (x<5){
+            hoaHong = x * (5/100);
+        } else if (x<20){
+            hoaHong = x * (20/100);
+        } else if (x<100){
+            hoaHong = x * (0.1);
+        }
+        alert('Hoa hong nhan duoc la: '+hoaHong);
+    </script>
+</body>
+</html>
